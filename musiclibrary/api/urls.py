@@ -13,13 +13,6 @@ router.register(
     basename='artist',
 )
 
-# router.register(
-#     r'album',
-#     AlbumViewSet,
-#     basename='album',
-# )
-
-
 urlpatterns = [
     path('', include(router.urls)),
 ]
